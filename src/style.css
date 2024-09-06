@@ -1,1 +1,29 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 550px;
+  text-align: center;
+}
+
+#intro,
+#excuse {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+}
+
+#intro {
+  margin-bottom: 15px;
+}
